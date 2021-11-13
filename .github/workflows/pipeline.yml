@@ -14,6 +14,7 @@ jobs:
 
       - name: Update theme
         # If you have the theme added as submodule, you can pull it and use the most updated version
+        run: git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
         run: git submodule update --init --recursive
 
       - name: Setup hugo
