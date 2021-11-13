@@ -12,7 +12,7 @@
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
 <link crossorigin=anonymous href=/hugo-blog/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css integrity="sha256-b2AFbUTT9+tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as=style>
-<link rel=preload href=./images/shubham.jpeg as=image>
+<link rel=preload href=/hugo-blog/images/shubham.jpeg as=image>
 <script defer crossorigin=anonymous src=/hugo-blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://whoami-shubham.github.io/hugo-blog/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://whoami-shubham.github.io/hugo-blog/favicon-16x16.png>
@@ -45,7 +45,7 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://whoami-shubham.github.io/hugo-blog/ accesskey=h title="Home (Alt + H)">
-<img src=./images/shubham.jpeg alt=logo aria-label=logo height=35>Home</a>
+<img src=/hugo-blog/images/shubham.jpeg alt=logo aria-label=logo height=35>Home</a>
 <span class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
@@ -130,7 +130,7 @@ as n is grows 10 times your task of printing is also grows 10 times."</span><br>
 now you'll have basic understanding how to compare two programs.
 now you would be thinking why we care about efficiency it is not sufficient my program is giving correct output ?. suppose if you want to buy some product on Amazon and amazon takes 10s or more each time whenever you click on some option. would you use it in 2018 ?
 yes you won't. now if you're thinking how to predict how much time a program will take to execute in general then skim through the following functions and their rate of growth with respect to input size 'n'
-<p><img loading=lazy src=/images/rate_of_growth.png alt=growth>
+<p><img loading=lazy src=/hugo-blog/images/rate_of_growth.png alt=growth>
 </p>
 <br>
 a normal computer can execute 10<sup>9</sup> instruction per second. suppose we have two algorithm and you are going to run both for input size 1000 and one algorithm has <span title="it is just  a fancy word for rate of growth">time complexity</span> of O(n) then how much second computer will take to give you result ?
@@ -194,7 +194,7 @@ suppose you have a function f(x) then what would be the upper bounding function 
 upper bounding function mean the function which gives f(x) maximum rate of growth for large input .<br>
 for example f(x) = n<sup>3</sup> + n + 1 for larger value of n , n<sup>3</sup> would give more rate of growth to f(x) than n and 1 hence n<sup>3</sup> is upper bounding function of
 f(x) let's denote upper bounding function with g(x) then mathematically<br>
-<p><img loading=lazy src=/images/bigo.png alt=bigo>
+<p><img loading=lazy src=/hugo-blog/images/bigo.png alt=bigo>
 </p>
 <p>where c can have infinte numbers of values , c>0<br>
 e.g: f(x) = 2n + 4<br>
@@ -210,7 +210,7 @@ so any function which is asymptotically greater than g(x) will be also upper bou
 <span style=color:#f4b400>2.Omega notation (lower bounding function):</span>
 we represent best case complexity of an algorithm using this notation.
 suppose you have a function f(x) then the lower bounding function mean the function which gives the largest rate of growth which is less than or equal to the rate of growth of f(x) for example f(x) = n<sup>3</sup> + n + 1 for larger value of n , n<sup>3</sup> would give less than the of growth to f(x) hence n<sup>3</sup> is upper bounding function of f(x) let&rsquo;s denote lower bounding function with g(x) then mathematically<br></p>
-<p><img loading=lazy src=/images/omega.png alt=omega>
+<p><img loading=lazy src=/hugo-blog/images/omega.png alt=omega>
 </p>
 <p>where <code>c</code> can have infinte numbers of values<br>
 e.g: f(x) = 2n + 4 <br>
@@ -225,7 +225,7 @@ c&lt;=2 c</em>n could never greater than f(x),take c=2<br>
 We represent average complexity of an algorithm using this notation.
 This notation decides whether upper and lower bounds of a function is same.
 if upper and lower bounds of a function is same then theta would be also same. mathematically<br></p>
-<p><img loading=lazy src=/images/theta.png alt=theta>
+<p><img loading=lazy src=/hugo-blog/images/theta.png alt=theta>
 </p>
 <br>
 where c1<=2 and c2>=3 and c1,c2>0<br>
