@@ -8,7 +8,7 @@ jobs:
         steps:
             - add_ssh_keys:
                 fingerprints:
-                    - "<FINGERPRINT>"
+                    - $DEPLOY_KEY
             - checkout
             - run:
                 name: Get current site
