@@ -1,0 +1,40 @@
+version: 2.0
+
+jobs:
+    build:
+        docker:
+            - image: cibuilds/hugo:0.60
+        working_directory: ~/whoami-shubham.github.io
+        steps:
+            - add_ssh_keys:
+                fingerprints:
+                    - "<FINGERPRINT>"
+            - checkout
+            - run:
+                name: Get current site
+                working_directory: ~/
+                command: git clone -b code git@github.com:whoami-shubham/hugo-blog.git public
+            - run:
+                name: Generate site
+                working_directory: ~/hugo-blog
+                command: HUGO_ENV=production hugo -d ~/public
+            - deploy:
+                name: Deploy to Github Pages
+                working_directory: ~/public
+                command: |
+                    git config credential.helper 'cache --timeout=120'
+                    git config user.email "shubhamkumarjha0013@gmail.com"
+                    git config user.name "CircleCI Deployment"
+                    git add *
+                    git commit --allow-empty -m "CircleCI Deployment - [ci skip]"
+                    git push -q git@github.com:whoami-shubham/hugo-blog.git code
+
+workflows:
+  version: 2
+  main:
+    jobs:
+    - build:
+        filters:
+          branches:
+            only: source
+
