@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on shubham&#39;s Blog</title>
+    <link>./tags/</link>
+    <description>Recent content in Tags on shubham&#39;s Blog</description>
+    <image>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>general</title>
+      <link>./tags/general/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hashedin</title>
+      <link>./tags/hashedin/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/hashedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-preprocessing</title>
+      <link>./tags/data-preprocessing/</link>
+      <pubDate>Mon, 25 Feb 2019 14:20:56 +0000</pubDate>
+      
+      <guid>./tags/data-preprocessing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithm</title>
+      <link>./tags/algorithm/</link>
+      <pubDate>Sat, 17 Nov 2018 04:18:45 +0000</pubDate>
+      
+      <guid>./tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>./tags/hello-world/</link>
+      <pubDate>Thu, 08 Nov 2018 04:18:45 +0000</pubDate>
+      
+      <guid>./tags/hello-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
