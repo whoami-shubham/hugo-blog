@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>./tags/general/</loc>
+    <loc>/tags/general/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./tags/hashedin/</loc>
+    <loc>/tags/hashedin/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./posts/hashedin-university/</loc>
+    <loc>/posts/hashedin-university/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./</loc>
+    <loc>/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./tags/data-preprocessing/</loc>
+    <loc>/tags/data-preprocessing/</loc>
     <lastmod>2019-02-25T14:20:56+00:00</lastmod>
   </url><url>
-    <loc>./posts/how-to-preprocess-data-for-regression-model/</loc>
+    <loc>/posts/how-to-preprocess-data-for-regression-model/</loc>
     <lastmod>2019-02-25T14:20:56+00:00</lastmod>
   </url><url>
-    <loc>./tags/algorithm/</loc>
+    <loc>/tags/algorithm/</loc>
     <lastmod>2018-11-17T04:18:45+00:00</lastmod>
   </url><url>
-    <loc>./posts/how-to-compair-two-algorithms/</loc>
+    <loc>/posts/how-to-compair-two-algorithms/</loc>
     <lastmod>2018-11-17T04:18:45+00:00</lastmod>
   </url><url>
-    <loc>./tags/hello-world/</loc>
+    <loc>/tags/hello-world/</loc>
     <lastmod>2018-11-08T04:18:45+00:00</lastmod>
   </url><url>
-    <loc>./posts/hello-world/</loc>
+    <loc>/posts/hello-world/</loc>
     <lastmod>2018-11-08T04:18:45+00:00</lastmod>
   </url><url>
-    <loc>./categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
